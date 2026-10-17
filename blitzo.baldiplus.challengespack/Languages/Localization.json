@@ -1,0 +1,39 @@
+{
+  "items": [
+    { "key": "Blitzo_BsodaChallenge", "value": "BSODA Challenge" },
+    { "key": "Blitzo_BsodaChallengeDesc", "value": "You have infinite BSODAs for escaping this Super SchoolHouse. Good luck. (or basically its just spam bsoda)" },
+
+    { "key": "Blitzo_GravityChallenge", "value": "Gravity is awful" },
+    { "key": "Blitzo_GravityChallengeDesc", "value": "Baldi's newest invention got broken again and gravity goes... infinite crazy!" },
+
+    { "key": "Blitzo_StudentShuffleChallenge", "value": "Open House" },
+    { "key": "Blitzo_StudentShuffleChallengeDesc", "value": "Baldi has announced an for this month is... <b>Open House!</b> which a large crowd of students. Can you collect all notebooks and escape from student chaos?" },
+
+    { "key": "Blitzo_DrReflexChallenge", "value": "Dr. Reflex" },
+    { "key": "Blitzo_DrReflexChallengeDesc", "value": "Dr. Reflex get tired and takeover this Super SchoolHouse for revenge student... dont mistakes in reflexes!" },
+
+    { "key": "Blitzo_BeansChallenge", "value": "Beeeaaans" },
+    { "key": "Blitzo_BeansChallengeDesc", "value": "99 Beans takeover this Super SchoolHouse! Can you beat this super challenge?" },
+
+    { "key": "Blitzo_BlindChallenge", "value": "MY EYES!" },
+    { "key": "Blitzo_BlindChallengeDesc", "value": "Eye surgery is just too much, so you go to Super SchoolHouse completely blind! Try to find your way using map or listening sounds!" },
+
+    { "key": "Blitzo_CorruptedActivitiesChallenge", "value": "Everything is glitched!" },
+    { "key": "Blitzo_CorruptedActivitiesChallengeDesc", "value": "Oh no, looks like someone break all activities (expect modded). Can you beat this and find some... interesting?" },
+
+    { "key": "Blitzo_NanaPeelChaosChallenge", "value": "Nana' Peel Chaos" },
+    { "key": "Blitzo_NanaPeelChaosChallengeDesc", "value": "The supplier messed up with delivery, and now Nana' Peel appearing every 15 seconds!" },
+
+    { "key": "Blitzo_WindySchoolChallenge", "value": "Windy day" },
+    { "key": "Blitzo_WindySchoolChallengeDesc", "value": "A typical day in the Super Schoolhouse... But a strong wind whole school! Use Techno-Boots to keep from being blown off!" },
+
+    { "key": "Blitzo_AlarmRushChallenge", "value": "Alarm Rush" },
+    { "key": "Blitzo_AlarmRushChallengeDesc", "value": "All characters evacuated because the Super SchoolHouse is being attacked by... an Alarm Clock? A rather strange phenomenon. But can you still beat this challenge?" },
+
+    { "key": "Blitzo_BalderChaseChallenge", "value": "Escape from scary ball" },
+    { "key": "Blitzo_BalderChaseChallengeDesc", "value": "A boulder trap have fully malfunctioned and chases student to squish him! Can you escape from this stupid ballder?" },
+
+    { "key": "Blitzo_YtpsHuntChallenge", "value": "YTPs Hunt" },
+    { "key": "Blitzo_YtpsHuntChallengeDesc", "value": "<color=red>(WARNING! THIS CHALLENGE STILL IN DEVELOPMENT. EVERYTHING WILL BE FIXED!)</color> Baldi take a break from math, and you need collect a You Thought Points!" }
+  ]
+}
