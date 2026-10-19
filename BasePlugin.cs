@@ -18,7 +18,7 @@ using UnityEngine.Networking;
 
 namespace BlitzoChallengesPack
 {
-    [BepInPlugin("blitzo.baldiplus.challengespack", "Blitzo's Challenges Pack", "1.0.0.0")]
+    [BepInPlugin("blitzo.baldiplus.challengespack", "Blitzo's Challenges Pack", "1.0.0.1")]
     [BepInDependency("pixelguy.pixelmodding.baldiplus.moddedmodesapi")]
     [BepInDependency(MTM101BaldiDevAPI.ModGUID, BepInDependency.DependencyFlags.HardDependency)]
     public class BasePlugin : BaseUnityPlugin
@@ -33,6 +33,8 @@ namespace BlitzoChallengesPack
         public static Sprite? YtpsCounterSprite;
 
         public static ConfigEntry<int>[] YtpsPointsPerLevel = null!;
+        public static ConfigEntry<bool> BsodaRedLight = null!;
+        public static ConfigEntry<bool> BsodaFovPulse = null!;
 
         private Harmony harmony = null!;
         private bool isCrashed = false;
@@ -98,6 +100,14 @@ namespace BlitzoChallengesPack
             YtpsPointsPerLevel[4] = Config.Bind(
                 "YtpsHunt", "F5", 700,
                 "Points required to win on Floor 5 (F5).");
+
+            BsodaRedLight = Config.Bind(
+                "BsodaChallenge", "RedLight", true,
+                "Enable the pulsing red lighting and red sky during the Bsoda Challenge chase.");
+
+            BsodaFovPulse = Config.Bind(
+                "BsodaChallenge", "FovPulse", true,
+                "Enable the music-synced field of view pulsing during the Bsoda Challenge chase.");
         }
 
         private void OnMainMenuInit()
